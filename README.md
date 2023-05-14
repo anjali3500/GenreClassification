@@ -1,0 +1,11 @@
+# GenreClassification
+This project is designed for Genre based Song Classification and Recommendation System.
+Music streaming has become increasingly popular in recent years. Platforms like Spotify, Apple Music, and Amazon Music give consumers access to a sizable music collection, and music streaming has grown in popularity over the past several years. In reality, the Recording Industry Association of America (RIAA) reported that 83% of the music industry's revenue in 2020 came from streaming. It's not surprising that these platforms are always looking for ways to enhance the user experience and boost user engagement given the tremendous demand for music streaming.
+One of the challenges faced by music streaming platforms is the overwhelming amount of music available to users. For instance, as of 2021, Spotify has over 70 million tracks, and Apple Music has over 75 million tracks. This vast library of music can make it difficult for users to find new music that aligns with their preferences. Moreover, users often listen to music to evoke a particular emotion or to match their mood. Therefore, there is a need for a system that can recommend songs based on the user's emotional state and listening habits.
+
+Therefore, our proposed music genre recommendation system aims to address these challenges by providing users with personalised music recommendations based on their listening habits. This system has the potential to improve the music listening experience for users and increase user engagement and retention for music streaming platforms. 
+By providing accurate and relevant music recommendations, our system can help music enthusiasts discover new music that they may have otherwise missed, leading to increased user satisfaction and loyalty.
+
+A user initially uploads a song. As the song proceeds, the genre of every 30 seconds is computed i.e chunks of 30 sec are made from the song and these chunks are classified. The user is recommended songs based on the genre of the current chunk running. As the song shifts to the next 30 sec, the system again recommends songs based on the genre.
+This process continues until the song ends, thus recommending various songs to users based on the current part played. 
+
